@@ -1,0 +1,12 @@
+<div class="parent-div">
+  <div>
+    <h1>Stop Watch</h1>
+  </div>
+
+  <div class="stopwatch">
+    <div class="number">{{ mm }} : {{ sc }} : {{ ms }}</div>
+    <div class="start-btn">
+      <button (click)="handler()">{{ isRunning ? 'Stop' : 'Start' }}</button>
+    </div>
+  </div>
+</div>
